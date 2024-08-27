@@ -10,9 +10,6 @@
 [submodule "Mods/Cruel-Blinds"]
 	path = Mods/Cruel-Blinds
 	url = https://github.com/Dimserene/Cruel-Blinds
-[submodule "Mods/Cryptid"]
-	path = Mods/Cryptid
-	url = https://github.com/MathIsFun0/Cryptid
 [submodule "Mods/DebugPlus"]
 	path = Mods/DebugPlus
 	url = https://github.com/Dimserene/DebugPlus
@@ -49,3 +46,6 @@
 [submodule "Mods/Talisman"]
 	path = Mods/Talisman
 	url = https://github.com/Dimserene/Talisman/
+[submodule "Mods/Cryptid"]
+	path = Mods/Cryptid
+	url = https://github.com/Dimserene/Cryptid
