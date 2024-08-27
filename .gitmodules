@@ -46,6 +46,3 @@
 [submodule "Mods/Talisman"]
 	path = Mods/Talisman
 	url = https://github.com/Dimserene/Talisman/
-[submodule "Mods/Cryptid"]
-	path = Mods/Cryptid
-	url = https://github.com/Dimserene/Cryptid
