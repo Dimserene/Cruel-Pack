@@ -7,9 +7,6 @@
 [submodule "Mods/Cartomancer"]
 	path = Mods/Cartomancer
 	url = https://github.com/stupxd/Cartomancer
-[submodule "Mods/Cruel-Blinds"]
-	path = Mods/Cruel-Blinds
-	url = https://github.com/Dimserene/Cruel-Blinds
 [submodule "Mods/DebugPlus"]
 	path = Mods/DebugPlus
 	url = https://github.com/Dimserene/DebugPlus
@@ -46,3 +43,6 @@
 [submodule "Mods/Talisman"]
 	path = Mods/Talisman
 	url = https://github.com/Dimserene/Talisman/
+[submodule "Mods/Cruel-Blinds"]
+	path = Mods/Cruel-Blinds
+	url = https://github.com/Dimserene/Cruel-Blinds
