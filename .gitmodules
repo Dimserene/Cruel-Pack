@@ -1,6 +1,3 @@
-[submodule "Mods/Aure-Spectral"]
-	path = Mods/Aure-Spectral
-	url = https://github.com/SDM0/Aure-Spectral
 [submodule "Mods/BonusBlinds"]
 	path = Mods/BonusBlinds
 	url = https://github.com/Dimserene/BonusBlinds
