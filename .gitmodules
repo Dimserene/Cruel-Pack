@@ -25,9 +25,6 @@
 [submodule "Mods/LobotomyCorp"]
 	path = Mods/LobotomyCorp
 	url = https://github.com/Mysthaps/LobotomyCorp/
-[submodule "Mods/MathBlinds"]
-	path = Mods/MathBlinds
-	url = https://github.com/Bazinga9000/MathBlinds
 [submodule "Mods/MystBlinds"]
 	path = Mods/MystBlinds
 	url = https://github.com/Mysthaps/MystBlinds/
