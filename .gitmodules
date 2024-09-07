@@ -37,3 +37,6 @@
 [submodule "Mods/Cruel-Blinds"]
 	path = Mods/Cruel-Blinds
 	url = https://github.com/Dimserene/Cruel-Blinds
+[submodule "Mods/MathBlinds"]
+	path = Mods/MathBlinds
+	url = https://github.com/Bazinga9000/MathBlinds
