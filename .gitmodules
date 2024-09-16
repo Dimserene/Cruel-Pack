@@ -40,3 +40,6 @@
 [submodule "Mods/MathBlinds"]
 	path = Mods/MathBlinds
 	url = https://github.com/Bazinga9000/MathBlinds
+[submodule "Mods/DeckSkinsPlus"]
+	path = Mods/DeckSkinsPlus
+	url = https://github.com/Dimserene/DeckSkinsPlus.git
