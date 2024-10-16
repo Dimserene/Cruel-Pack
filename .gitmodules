@@ -58,3 +58,6 @@
 [submodule "Mods/DiscoveryManager"]
 	path = Mods/DiscoveryManager
 	url = https://github.com/lshtech/DiscoveryManager
+[submodule "Mods/Blueprint"]
+	path = Mods/Blueprint
+	url = https://github.com/stupxd/Blueprint
