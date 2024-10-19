@@ -43,9 +43,6 @@
 [submodule "Mods/FasterAnteScaling"]
 	path = Mods/FasterAnteScaling
 	url = https://github.com/castleCodr/FasterAnteScaling
-[submodule "Mods/Evil"]
-	path = Mods/Evil
-	url = https://github.com/Mathguy23/Evil
 [submodule "Mods/TooManyJokers"]
 	path = Mods/TooManyJokers
 	url = https://github.com/cg-223/toomanyjokers
