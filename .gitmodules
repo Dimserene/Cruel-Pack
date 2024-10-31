@@ -37,9 +37,6 @@
 [submodule "Mods/Cruel-Blinds"]
 	path = Mods/Cruel-Blinds
 	url = https://github.com/Dimserene/Cruel-Blinds
-[submodule "Mods/Aure-Spectral"]
-	path = Mods/Aure-Spectral
-	url = https://github.com/SDM0/Aure-Spectral
 [submodule "Mods/FasterAnteScaling"]
 	path = Mods/FasterAnteScaling
 	url = https://github.com/castleCodr/FasterAnteScaling
@@ -58,3 +55,18 @@
 [submodule "Mods/Blueprint"]
 	path = Mods/Blueprint
 	url = https://github.com/stupxd/Blueprint
+[submodule "Mods/Potatro"]
+	path = Mods/Potatro
+	url = https://github.com/balt-dev/potatro/
+[submodule "Mods/Luna-s-Enhancements"]
+	path = Mods/Luna-s-Enhancements
+	url = https://github.com/Eremel/Luna-s-Enhancements/
+[submodule "Mods/Malverk"]
+	path = Mods/Malverk
+	url = https://github.com/Eremel/Malverk
+[submodule "Mods/Aure-Spectral"]
+	path = Mods/Aure-Spectral
+	url = https://github.com/Eremel/Aure-Spectral/
+[submodule "Mods/AntonosStakes"]
+	path = Mods/AntonosStakes
+	url = https://github.com/Antonos101/Scaling-Ante-Stakes
