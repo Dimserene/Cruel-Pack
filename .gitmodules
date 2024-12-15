@@ -61,3 +61,9 @@
 [submodule "Mods/BlindEditions"]
 	path = Mods/BlindEditions
 	url = https://github.com/Mathguy23/BlindEditions
+[submodule "Mods/Aura"]
+	path = Mods/Aura
+	url = https://github.com/MathIsFun0/Aura
+[submodule "Mods/FoldButton"]
+	path = Mods/FoldButton
+	url = https://github.com/happinyz/BalatroFoldButton
