@@ -5,9 +5,8 @@
 --- MOD_AUTHOR: [Crimson Heart]
 --- MOD_DESCRIPTION: Want to try the base stakes with just mods? Here you go! [DO NOT USE BY ITSELF] 
 --- BADGE_COLOUR: 990000
---- VERSION: Beta 1.0
+--- VERSION: 1.0_beta
 --- PRIORITY: -1
---- DEPENDENCIES: [Talisman>=2.0.0-beta5]
 
 SMODS.Atlas({
     key = 'MO_stakes',
@@ -671,6 +670,453 @@ SMODS.Stake {
         "Shop can have {C:attention}Rental{} Jokers",
         "{C:inactive,s:0.8}(Costs {C:money,s:0.8}$3{C:inactive,s:0.8} per round)",
         "{s:0.8,C:inactive}(Vanilla Only){}",
+    }
+}
+}
+
+SMODS.Stake {
+    name = "Jimbo Only Stake",
+    key = "JimboStake",
+    above_stake = 'CrimStake_VO_Gold',
+    applied_stakes = { "white" },
+    atlas = 'MO_stakes',
+    sticker_atlas = 'stickers',
+    pos = { x = 0, y = 4 },
+    sticker_pos = { x = 0, y = 0 },
+    modifiers = function()
+        G.GAME.banned_keys.j_four_fingers = true
+        G.GAME.banned_keys.j_mime = true
+        G.GAME.banned_keys.j_credit_card = true
+        G.GAME.banned_keys.j_ceremonial = true
+        G.GAME.banned_keys.j_banner = true
+        G.GAME.banned_keys.j_mystic_summit = true
+        G.GAME.banned_keys.j_loyalty_card = true
+        G.GAME.banned_keys.j_8_ball = true
+        G.GAME.banned_keys.j_dusk = true
+        G.GAME.banned_keys.j_raised_fist = true
+        G.GAME.banned_keys.j_fibonacci = true
+        G.GAME.banned_keys.j_scary_face = true
+        G.GAME.banned_keys.j_delayed_grat = true
+        G.GAME.banned_keys.j_hack = true
+        G.GAME.banned_keys.j_pareidolia = true
+        G.GAME.banned_keys.j_gros_michel = true
+        G.GAME.banned_keys.j_business = true
+        G.GAME.banned_keys.j_supernova = true
+        G.GAME.banned_keys.j_ride_the_bus = true
+        G.GAME.banned_keys.j_egg = true
+        G.GAME.banned_keys.j_ice_cream = true
+        G.GAME.banned_keys.j_dna = true
+        G.GAME.banned_keys.j_splash = true
+        G.GAME.banned_keys.j_superposition = true
+        G.GAME.banned_keys.j_todo_list = true
+        G.GAME.banned_keys.j_cavendish = true
+        G.GAME.banned_keys.j_red_card = true
+        G.GAME.banned_keys.j_seance = true
+        G.GAME.banned_keys.j_shortcut = true
+        G.GAME.banned_keys.j_cloud_9 = true
+        G.GAME.banned_keys.j_rocket = true
+        G.GAME.banned_keys.j_obelisk = true
+        G.GAME.banned_keys.j_midas_mask = true
+        G.GAME.banned_keys.j_gift = true
+        G.GAME.banned_keys.j_turtle_bean = true
+        G.GAME.banned_keys.j_erosion = true
+        G.GAME.banned_keys.j_reserved_parking = true
+        G.GAME.banned_keys.j_mail = true
+        G.GAME.banned_keys.j_to_the_moon = true
+        G.GAME.banned_keys.j_juggler = true
+        G.GAME.banned_keys.j_drunkard = true
+        G.GAME.banned_keys.j_lucky_cat = true
+        G.GAME.banned_keys.j_baseball = true
+        G.GAME.banned_keys.j_bull = true
+        G.GAME.banned_keys.j_diet_cola = true
+        G.GAME.banned_keys.j_popcorn = true
+        G.GAME.banned_keys.j_trousers = true
+        G.GAME.banned_keys.j_ancient = true
+        G.GAME.banned_keys.j_ramen = true
+        G.GAME.banned_keys.j_walkie_talkie = true
+        G.GAME.banned_keys.j_selzer = true
+        G.GAME.banned_keys.j_castle = true
+        G.GAME.banned_keys.j_smiley = true
+        G.GAME.banned_keys.j_campfire = true
+        G.GAME.banned_keys.j_ticket = true
+        G.GAME.banned_keys.j_acrobat = true
+        G.GAME.banned_keys.j_sock_and_buskin = true
+        G.GAME.banned_keys.j_troubadour = true
+        G.GAME.banned_keys.j_certificate = true
+        G.GAME.banned_keys.j_hanging_chad = true
+        G.GAME.banned_keys.j_rough_gem = true
+        G.GAME.banned_keys.j_bloodstone = true
+        G.GAME.banned_keys.j_arrowhead = true
+        G.GAME.banned_keys.j_onyx_agate = true
+        G.GAME.banned_keys.j_flower_pot = true
+        G.GAME.banned_keys.j_oops = true
+        G.GAME.banned_keys.j_idol = true
+        G.GAME.banned_keys.j_seeing_double = true
+        G.GAME.banned_keys.j_hit_the_road = true
+        G.GAME.banned_keys.j_duo = true
+        G.GAME.banned_keys.j_trio = true
+        G.GAME.banned_keys.j_family = true
+        G.GAME.banned_keys.j_order = true
+        G.GAME.banned_keys.j_tribe = true
+        G.GAME.banned_keys.j_satellite = true
+        G.GAME.banned_keys.j_shoot_the_moon = true
+        G.GAME.banned_keys.j_drivers_license = true
+        G.GAME.banned_keys.j_bootstraps = true
+    end,
+    colour = G.C.JIMBO,
+    loc_txt = {
+    name = "Jimbo Stake",
+    text = {
+        "{C:attention}Non-Jimbo{} Jokers",
+        "are Removed",
+        "{s:0.8,C:inactive}(Vanilla Jokers Only){}"
+    }
+}
+}
+
+SMODS.Stake {
+    name = "Jimbo Only Vanilla Stake",
+    key = "Jimbo_VOStake",
+    above_stake = 'CrimStake_JimboStake',
+    applied_stakes = { "CrimStake_VO_White" },
+    atlas = 'MO_stakes',
+    sticker_atlas = 'stickers',
+    pos = { x = 1, y = 4 },
+    sticker_pos = { x = 0, y = 2 },
+    modifiers = function()
+        G.GAME.banned_keys.j_four_fingers = true
+        G.GAME.banned_keys.j_mime = true
+        G.GAME.banned_keys.j_credit_card = true
+        G.GAME.banned_keys.j_ceremonial = true
+        G.GAME.banned_keys.j_banner = true
+        G.GAME.banned_keys.j_mystic_summit = true
+        G.GAME.banned_keys.j_loyalty_card = true
+        G.GAME.banned_keys.j_8_ball = true
+        G.GAME.banned_keys.j_dusk = true
+        G.GAME.banned_keys.j_raised_fist = true
+        G.GAME.banned_keys.j_fibonacci = true
+        G.GAME.banned_keys.j_scary_face = true
+        G.GAME.banned_keys.j_delayed_grat = true
+        G.GAME.banned_keys.j_hack = true
+        G.GAME.banned_keys.j_pareidolia = true
+        G.GAME.banned_keys.j_gros_michel = true
+        G.GAME.banned_keys.j_business = true
+        G.GAME.banned_keys.j_supernova = true
+        G.GAME.banned_keys.j_ride_the_bus = true
+        G.GAME.banned_keys.j_egg = true
+        G.GAME.banned_keys.j_ice_cream = true
+        G.GAME.banned_keys.j_dna = true
+        G.GAME.banned_keys.j_splash = true
+        G.GAME.banned_keys.j_superposition = true
+        G.GAME.banned_keys.j_todo_list = true
+        G.GAME.banned_keys.j_cavendish = true
+        G.GAME.banned_keys.j_red_card = true
+        G.GAME.banned_keys.j_seance = true
+        G.GAME.banned_keys.j_shortcut = true
+        G.GAME.banned_keys.j_cloud_9 = true
+        G.GAME.banned_keys.j_rocket = true
+        G.GAME.banned_keys.j_obelisk = true
+        G.GAME.banned_keys.j_midas_mask = true
+        G.GAME.banned_keys.j_gift = true
+        G.GAME.banned_keys.j_turtle_bean = true
+        G.GAME.banned_keys.j_erosion = true
+        G.GAME.banned_keys.j_reserved_parking = true
+        G.GAME.banned_keys.j_mail = true
+        G.GAME.banned_keys.j_to_the_moon = true
+        G.GAME.banned_keys.j_juggler = true
+        G.GAME.banned_keys.j_drunkard = true
+        G.GAME.banned_keys.j_lucky_cat = true
+        G.GAME.banned_keys.j_baseball = true
+        G.GAME.banned_keys.j_bull = true
+        G.GAME.banned_keys.j_diet_cola = true
+        G.GAME.banned_keys.j_popcorn = true
+        G.GAME.banned_keys.j_trousers = true
+        G.GAME.banned_keys.j_ancient = true
+        G.GAME.banned_keys.j_ramen = true
+        G.GAME.banned_keys.j_walkie_talkie = true
+        G.GAME.banned_keys.j_selzer = true
+        G.GAME.banned_keys.j_castle = true
+        G.GAME.banned_keys.j_smiley = true
+        G.GAME.banned_keys.j_campfire = true
+        G.GAME.banned_keys.j_ticket = true
+        G.GAME.banned_keys.j_acrobat = true
+        G.GAME.banned_keys.j_sock_and_buskin = true
+        G.GAME.banned_keys.j_troubadour = true
+        G.GAME.banned_keys.j_certificate = true
+        G.GAME.banned_keys.j_hanging_chad = true
+        G.GAME.banned_keys.j_rough_gem = true
+        G.GAME.banned_keys.j_bloodstone = true
+        G.GAME.banned_keys.j_arrowhead = true
+        G.GAME.banned_keys.j_onyx_agate = true
+        G.GAME.banned_keys.j_flower_pot = true
+        G.GAME.banned_keys.j_oops = true
+        G.GAME.banned_keys.j_idol = true
+        G.GAME.banned_keys.j_seeing_double = true
+        G.GAME.banned_keys.j_hit_the_road = true
+        G.GAME.banned_keys.j_duo = true
+        G.GAME.banned_keys.j_trio = true
+        G.GAME.banned_keys.j_family = true
+        G.GAME.banned_keys.j_order = true
+        G.GAME.banned_keys.j_tribe = true
+        G.GAME.banned_keys.j_satellite = true
+        G.GAME.banned_keys.j_shoot_the_moon = true
+        G.GAME.banned_keys.j_drivers_license = true
+        G.GAME.banned_keys.j_bootstraps = true
+        if Ortalab then
+            G.GAME.banned_keys.ortalab_lot_rooster = true
+            G.GAME.banned_keys.ortalab_lot_melon = true
+            G.GAME.banned_keys.ortalab_lot_scorpion = true
+            G.GAME.banned_keys.ortalab_lot_umbrella = true
+            G.GAME.banned_keys.ortalab_lot_barrel = true
+            G.GAME.banned_keys.ortalab_lot_mandolin = true
+            G.GAME.banned_keys.ortalab_lot_ladder = true
+            G.GAME.banned_keys.ortalab_lot_siren = true
+            G.GAME.banned_keys.ortalab_lot_bird = true
+            G.GAME.banned_keys.ortalab_lot_bonnet = true
+            G.GAME.banned_keys.ortalab_lot_pear = true
+            G.GAME.banned_keys.ortalab_lot_flag = true
+            G.GAME.banned_keys.ortalab_lot_bottle = true
+            G.GAME.banned_keys.ortalab_lot_harp = true
+            G.GAME.banned_keys.ortalab_lot_heron = true
+            G.GAME.banned_keys.ortalab_lot_rose = true
+            G.GAME.banned_keys.ortalab_lot_dandy = true
+            G.GAME.banned_keys.ortalab_lot_boot = true
+            G.GAME.banned_keys.ortalab_lot_parrot = true
+            G.GAME.banned_keys.ortalab_lot_heart = true
+            G.GAME.banned_keys.ortalab_lot_hand = true
+            G.GAME.banned_keys.ortalab_lot_tree = true
+            G.GAME.banned_keys.ortalab_small_loteria_1 = true
+            G.GAME.banned_keys.ortalab_small_loteria_2 = true
+            G.GAME.banned_keys.ortalab_small_loteria_3 = true
+            G.GAME.banned_keys.ortalab_small_loteria_4 = true
+        end
+    end,
+    colour = G.C.JIMBO,
+    loc_txt = {
+    name = "Vanilla Jimbo Stake",
+    text = {
+        "{C:attention}Non-Jimbo{} cards",
+        "are Removed",
+        "{s:0.8,C:inactive}(Vanilla Only Stake){}",
+    }
+}
+}
+
+
+SMODS.Stake {
+    name = "Jimboless Stake",
+    key = "JimbolessStake",
+    above_stake = 'CrimStake_Jimbo_VOStake',
+    applied_stakes = { "white" },
+    atlas = 'MO_stakes',
+    sticker_atlas = 'stickers',
+    pos = { x = 4, y = 1 },
+    sticker_pos = { x = 4, y = 1 },
+    modifiers = function()
+        G.GAME.banned_keys.j_joker = true
+        G.GAME.banned_keys.j_greedy_joker = true
+        G.GAME.banned_keys.j_lusty_joker = true
+        G.GAME.banned_keys.j_wrathful_joker = true
+        G.GAME.banned_keys.j_gluttenous_joker = true
+        G.GAME.banned_keys.j_jolly = true
+        G.GAME.banned_keys.j_zany = true
+        G.GAME.banned_keys.j_mad = true
+        G.GAME.banned_keys.j_droll = true
+        G.GAME.banned_keys.j_crazy = true
+        G.GAME.banned_keys.j_sly = true
+        G.GAME.banned_keys.j_wily = true
+        G.GAME.banned_keys.j_clever = true
+        G.GAME.banned_keys.j_devious = true
+        G.GAME.banned_keys.j_crafty = true
+        G.GAME.banned_keys.j_half = true
+        G.GAME.banned_keys.j_stencil = true
+        G.GAME.banned_keys.j_marble = true
+        G.GAME.banned_keys.j_misprint = true
+        G.GAME.banned_keys.j_chaos = true
+        G.GAME.banned_keys.j_steel_joker = true
+        G.GAME.banned_keys.j_abstract = true
+        G.GAME.banned_keys.j_even_steven = true
+        G.GAME.banned_keys.j_odd_todd = true
+        G.GAME.banned_keys.j_scholar = true
+        G.GAME.banned_keys.j_space = true
+        G.GAME.banned_keys.j_burglar = true
+        G.GAME.banned_keys.j_blackboard = true
+        G.GAME.banned_keys.j_runner = true
+        G.GAME.banned_keys.j_blue_joker = true
+        G.GAME.banned_keys.j_sixth_sense = true
+        G.GAME.banned_keys.j_constellation = true
+        G.GAME.banned_keys.j_hiker = true
+        G.GAME.banned_keys.j_faceless = true
+        G.GAME.banned_keys.j_green_joker = true
+        G.GAME.banned_keys.j_card_sharp = true
+        G.GAME.banned_keys.j_madness = true
+        G.GAME.banned_keys.j_square = true
+        G.GAME.banned_keys.j_riff_raff = true
+        G.GAME.banned_keys.j_vampire = true
+        G.GAME.banned_keys.j_hologram = true
+        G.GAME.banned_keys.j_vagabond = true
+        G.GAME.banned_keys.j_luchador = true
+        G.GAME.banned_keys.j_photograph = true
+        G.GAME.banned_keys.j_hallucination = true
+        G.GAME.banned_keys.j_fortune_teller = true
+        G.GAME.banned_keys.j_stone = true
+        G.GAME.banned_keys.j_golden = true
+        G.GAME.banned_keys.j_trading = true
+        G.GAME.banned_keys.j_flash = true
+        G.GAME.banned_keys.j_mr_bones = true
+        G.GAME.banned_keys.j_swashbuckler = true
+        G.GAME.banned_keys.j_smeared = true
+        G.GAME.banned_keys.j_throwback = true
+        G.GAME.banned_keys.j_glass = true
+        G.GAME.banned_keys.j_ring_master = true
+        G.GAME.banned_keys.j_blueprint = true
+        G.GAME.banned_keys.j_wee = true
+        G.GAME.banned_keys.j_merry_andy = true
+        G.GAME.banned_keys.j_matador = true
+        G.GAME.banned_keys.j_stuntman = true
+        G.GAME.banned_keys.j_invisible = true
+        G.GAME.banned_keys.j_brainstorm = true
+        G.GAME.banned_keys.j_cartomancer = true
+        G.GAME.banned_keys.j_astronomer = true
+        G.GAME.banned_keys.j_burnt = true
+        G.GAME.banned_keys.j_caino = true
+        G.GAME.banned_keys.j_triboulet = true
+        G.GAME.banned_keys.j_yorick = true
+        G.GAME.banned_keys.j_chicot = true
+        G.GAME.banned_keys.j_perkeo = true
+        G.GAME.banned_keys.c_soul = true
+    end,
+    colour = G.C.JIMBO,
+    loc_txt = {
+    name = "Jimboless Stake",
+    text = {
+        "{C:attention}Jimbo{} Jokers",
+        "are Removed",
+        "{s:0.8,C:inactive}(Vanilla Jokers Only){}"
+    }
+}
+}
+
+
+
+SMODS.Stake {
+    name = "Jimboless Vanilla Stake",
+    key = "Jimboless_VOStake",
+    above_stake = 'CrimStake_JimbolessStake',
+    applied_stakes = { "CrimStake_VO_White" },
+    atlas = 'MO_stakes',
+    sticker_atlas = 'stickers',
+    pos = { x = 4, y = 3 },
+    sticker_pos = { x = 4, y = 3 },
+        modifiers = function()
+        G.GAME.banned_keys.j_joker = true
+        G.GAME.banned_keys.j_greedy_joker = true
+        G.GAME.banned_keys.j_lusty_joker = true
+        G.GAME.banned_keys.j_wrathful_joker = true
+        G.GAME.banned_keys.j_gluttenous_joker = true
+        G.GAME.banned_keys.j_jolly = true
+        G.GAME.banned_keys.j_zany = true
+        G.GAME.banned_keys.j_mad = true
+        G.GAME.banned_keys.j_droll = true
+        G.GAME.banned_keys.j_crazy = true
+        G.GAME.banned_keys.j_sly = true
+        G.GAME.banned_keys.j_wily = true
+        G.GAME.banned_keys.j_clever = true
+        G.GAME.banned_keys.j_devious = true
+        G.GAME.banned_keys.j_crafty = true
+        G.GAME.banned_keys.j_half = true
+        G.GAME.banned_keys.j_stencil = true
+        G.GAME.banned_keys.j_marble = true
+        G.GAME.banned_keys.j_misprint = true
+        G.GAME.banned_keys.j_chaos = true
+        G.GAME.banned_keys.j_steel_joker = true
+        G.GAME.banned_keys.j_abstract = true
+        G.GAME.banned_keys.j_even_steven = true
+        G.GAME.banned_keys.j_odd_todd = true
+        G.GAME.banned_keys.j_scholar = true
+        G.GAME.banned_keys.j_space = true
+        G.GAME.banned_keys.j_burglar = true
+        G.GAME.banned_keys.j_blackboard = true
+        G.GAME.banned_keys.j_runner = true
+        G.GAME.banned_keys.j_blue_joker = true
+        G.GAME.banned_keys.j_sixth_sense = true
+        G.GAME.banned_keys.j_constellation = true
+        G.GAME.banned_keys.j_hiker = true
+        G.GAME.banned_keys.j_faceless = true
+        G.GAME.banned_keys.j_green_joker = true
+        G.GAME.banned_keys.j_card_sharp = true
+        G.GAME.banned_keys.j_madness = true
+        G.GAME.banned_keys.j_square = true
+        G.GAME.banned_keys.j_riff_raff = true
+        G.GAME.banned_keys.j_vampire = true
+        G.GAME.banned_keys.j_hologram = true
+        G.GAME.banned_keys.j_vagabond = true
+        G.GAME.banned_keys.j_luchador = true
+        G.GAME.banned_keys.j_photograph = true
+        G.GAME.banned_keys.j_hallucination = true
+        G.GAME.banned_keys.j_fortune_teller = true
+        G.GAME.banned_keys.j_stone = true
+        G.GAME.banned_keys.j_golden = true
+        G.GAME.banned_keys.j_trading = true
+        G.GAME.banned_keys.j_flash = true
+        G.GAME.banned_keys.j_mr_bones = true
+        G.GAME.banned_keys.j_swashbuckler = true
+        G.GAME.banned_keys.j_smeared = true
+        G.GAME.banned_keys.j_throwback = true
+        G.GAME.banned_keys.j_glass = true
+        G.GAME.banned_keys.j_ring_master = true
+        G.GAME.banned_keys.j_blueprint = true
+        G.GAME.banned_keys.j_wee = true
+        G.GAME.banned_keys.j_merry_andy = true
+        G.GAME.banned_keys.j_matador = true
+        G.GAME.banned_keys.j_stuntman = true
+        G.GAME.banned_keys.j_invisible = true
+        G.GAME.banned_keys.j_brainstorm = true
+        G.GAME.banned_keys.j_cartomancer = true
+        G.GAME.banned_keys.j_astronomer = true
+        G.GAME.banned_keys.j_burnt = true
+        G.GAME.banned_keys.j_caino = true
+        G.GAME.banned_keys.j_triboulet = true
+        G.GAME.banned_keys.j_yorick = true
+        G.GAME.banned_keys.j_chicot = true
+        G.GAME.banned_keys.j_perkeo = true
+        G.GAME.banned_keys.c_soul = true
+        if Ortalab then
+            G.GAME.banned_keys.ortalab_lot_rooster = true
+            G.GAME.banned_keys.ortalab_lot_melon = true
+            G.GAME.banned_keys.ortalab_lot_scorpion = true
+            G.GAME.banned_keys.ortalab_lot_umbrella = true
+            G.GAME.banned_keys.ortalab_lot_barrel = true
+            G.GAME.banned_keys.ortalab_lot_mandolin = true
+            G.GAME.banned_keys.ortalab_lot_ladder = true
+            G.GAME.banned_keys.ortalab_lot_siren = true
+            G.GAME.banned_keys.ortalab_lot_bird = true
+            G.GAME.banned_keys.ortalab_lot_bonnet = true
+            G.GAME.banned_keys.ortalab_lot_pear = true
+            G.GAME.banned_keys.ortalab_lot_flag = true
+            G.GAME.banned_keys.ortalab_lot_bottle = true
+            G.GAME.banned_keys.ortalab_lot_harp = true
+            G.GAME.banned_keys.ortalab_lot_heron = true
+            G.GAME.banned_keys.ortalab_lot_rose = true
+            G.GAME.banned_keys.ortalab_lot_dandy = true
+            G.GAME.banned_keys.ortalab_lot_boot = true
+            G.GAME.banned_keys.ortalab_lot_parrot = true
+            G.GAME.banned_keys.ortalab_lot_heart = true
+            G.GAME.banned_keys.ortalab_lot_hand = true
+            G.GAME.banned_keys.ortalab_lot_tree = true
+            G.GAME.banned_keys.ortalab_small_loteria_1 = true
+            G.GAME.banned_keys.ortalab_small_loteria_2 = true
+            G.GAME.banned_keys.ortalab_small_loteria_3 = true
+            G.GAME.banned_keys.ortalab_small_loteria_4 = true
+        end
+    end,
+    colour = G.C.JIMBO,
+    loc_txt = {
+    name = "Vanilla Jimboless Stake",
+    text = {
+        "{C:attention}Jimbo{} cards",
+        "are Removed",
+        "{s:0.8,C:inactive}(Vanilla Only Stake){}",
     }
 }
 }
