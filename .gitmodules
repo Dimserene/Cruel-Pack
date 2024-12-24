@@ -43,9 +43,6 @@
 [submodule "Mods/Potatro"]
 	path = Mods/Potatro
 	url = https://github.com/balt-dev/potatro/
-[submodule "Mods/AntonosStakes"]
-	path = Mods/AntonosStakes
-	url = https://github.com/Antonos101/Scaling-Ante-Stakes
 [submodule "Mods/Cruel-Blinds"]
 	path = Mods/Cruel-Blinds
 	url = https://github.com/Dimserene/Cruel-Blinds
@@ -70,3 +67,6 @@
 [submodule "Mods/Item-Remover"]
 	path = Mods/Item-Remover
 	url = https://github.com/art-muncher/Item-Remover
+[submodule "Mods/AntonosStakes"]
+	path = Mods/AntonosStakes
+	url = https://github.com/lshtech/Scaling-Ante-Stakes
