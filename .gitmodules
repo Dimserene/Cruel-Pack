@@ -19,9 +19,6 @@
 [submodule "Mods/Talisman"]
 	path = Mods/Talisman
 	url = https://github.com/Dimserene/Talisman/
-[submodule "Mods/MathBlinds"]
-	path = Mods/MathBlinds
-	url = https://github.com/Bazinga9000/MathBlinds
 [submodule "Mods/FasterAnteScaling"]
 	path = Mods/FasterAnteScaling
 	url = https://github.com/castleCodr/FasterAnteScaling
@@ -67,3 +64,6 @@
 [submodule "Mods/Cruel-Blinds"]
 	path = Mods/Cruel-Blinds
 	url = https://github.com/Dimserene/Cruel-Blinds
+[submodule "Mods/MathBlinds"]
+	path = Mods/MathBlinds
+	url = https://github.com/Dimserene/MathBlinds
