@@ -31,9 +31,6 @@
 [submodule "Mods/Handy"]
 	path = Mods/Handy
 	url = https://github.com/SleepyG11/HandyBalatro
-[submodule "Mods/AntonosStakes"]
-	path = Mods/AntonosStakes
-	url = https://github.com/lshtech/Scaling-Ante-Stakes
 [submodule "Mods/BlackjackHands"]
 	path = Mods/BlackjackHands
 	url = https://github.com/Mathguy23/BlackjackHands
@@ -46,6 +43,3 @@
 [submodule "Mods/Cruel-Blinds"]
 	path = Mods/Cruel-Blinds
 	url = https://github.com/Dimserene/Cruel-Blinds
-[submodule "Mods/Talisman"]
-	path = Mods/Talisman
-	url = https://github.com/MathIsFun0/Talisman
