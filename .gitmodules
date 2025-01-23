@@ -43,3 +43,6 @@
 [submodule "Mods/Cruel-Blinds"]
 	path = Mods/Cruel-Blinds
 	url = https://github.com/Dimserene/Cruel-Blinds
+[submodule "Mods/TatteredDecks"]
+	path = Mods/TatteredDecks
+	url = https://github.com/Cheesy-Brik/TatteredDecks
