@@ -31,9 +31,6 @@
 [submodule "Mods/Handy"]
 	path = Mods/Handy
 	url = https://github.com/SleepyG11/HandyBalatro
-[submodule "Mods/BlackjackHands"]
-	path = Mods/BlackjackHands
-	url = https://github.com/Mathguy23/BlackjackHands
 [submodule "Mods/LobotomyCorp"]
 	path = Mods/LobotomyCorp
 	url = https://github.com/Mysthaps/LobotomyCorp
@@ -49,3 +46,6 @@
 [submodule "Mods/FlushHotkeys"]
 	path = Mods/FlushHotkeys
 	url = https://github.com/Dimserene/FlushHotkeys
+[submodule "Mods/Order"]
+	path = Mods/Order
+	url = https://github.com/pinkmaggit-hub/Order/
