@@ -46,9 +46,6 @@
 [submodule "Mods/FlushHotkeys"]
 	path = Mods/FlushHotkeys
 	url = https://github.com/Dimserene/FlushHotkeys
-[submodule "Mods/Order"]
-	path = Mods/Order
-	url = https://github.com/pinkmaggit-hub/Order/
 [submodule "Mods/SystemClock"]
 	path = Mods/SystemClock
 	url = https://github.com/Breezebuilder/SystemClock
