@@ -55,3 +55,6 @@
 [submodule "Mods/DeckStickerShowEverywhere"]
 	path = Mods/DeckStickerShowEverywhere
 	url = https://github.com/qwerty9118/DeckStickerShowEverywhere
+[submodule "Mods/MathBlinds"]
+	path = Mods/MathBlinds
+	url = https://github.com/Bazinga9000/MathBlinds
