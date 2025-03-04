@@ -22,9 +22,6 @@
 [submodule "Mods/BlindEditions"]
 	path = Mods/BlindEditions
 	url = https://github.com/Mathguy23/BlindEditions
-[submodule "Mods/FoldButton"]
-	path = Mods/FoldButton
-	url = https://github.com/happinyz/BalatroFoldButton
 [submodule "Mods/Handy"]
 	path = Mods/Handy
 	url = https://github.com/SleepyG11/HandyBalatro
@@ -58,3 +55,6 @@
 [submodule "Mods/MathBlinds"]
 	path = Mods/MathBlinds
 	url = https://github.com/Bazinga9000/MathBlinds
+[submodule "Mods/Jimbos_Metrics"]
+	path = Mods/Jimbos_Metrics
+	url = https://gitlab.com/CraftedCart/jimbos_metrics/
